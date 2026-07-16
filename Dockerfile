@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libssl-dev \
     libffi-dev \
     python3-dev \
+    python3-setuptools \
     ca-certificates \
     curl \
     && rm -rf /var/lib/apt/lists/*
